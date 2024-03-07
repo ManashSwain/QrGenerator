@@ -1,0 +1,92 @@
+/* Importing font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap');
+
+/* All properties  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body properties  */
+
+body {
+   background-color: black;
+}
+
+/* Main container properties  */
+
+.container {
+    background-color: white;
+    width: 350px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+/* input field properties  */
+
+.input-field {
+    padding: 10px 10px;
+}
+.input-field input {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0px;
+    padding: 5px;
+    border: 2px solid purple;
+    outline: 0;
+    border-radius: 5px;
+    color: purple;
+}
+
+/* QR code properties  */
+
+.QRbox {
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    
+}
+.QRbox img {
+    padding: 5px; 
+}
+
+
+/* Button properties  */
+
+.generate {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+    font-weight: 200;
+
+}
+
+.btn:hover {
+    background-color: rgb(114, 5, 114);
+}
+
+/* Mediaqueries  */
+
+@media screen and (max-width: 350px) {
+    .container{
+        width: 300px;
+    }
+}
